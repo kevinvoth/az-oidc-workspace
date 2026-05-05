@@ -1,10 +1,10 @@
 
 resource "azurerm_resource_group" "cacthis" {
-  name     = "tfc-cac-oidc-rg"
+  name     = "az-oidc-workspace-sp"
   location = "canadacentral"
 }
 
 resource "azurerm_resource_group" "caethis" {
-  name     = "tfc-cae-oidc-rg"
+  name     = "az-oidc-workspace-sp"
   location = "canadaeast"
 }
